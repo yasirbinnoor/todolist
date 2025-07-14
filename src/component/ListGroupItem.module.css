@@ -1,0 +1,59 @@
+.kg-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    margin-bottom: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+}
+
+.kg-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+}
+
+.kg-span {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #212529;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.button {
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: none;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0 4px 8px rgba(13, 202, 240, 0.2);
+}
+
+/* Buy button */
+.btn-info {
+    background-color: #0dcaf0;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #31d2f2;
+    box-shadow: 0 0 12px rgba(13, 202, 240, 0.6);
+    transform: scale(1.05);
+}
+
+/* Delete button */
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #e55363;
+    box-shadow: 0 0 12px rgba(220, 53, 69, 0.6);
+    transform: scale(1.05);
+}
